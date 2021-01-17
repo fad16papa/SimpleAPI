@@ -16,6 +16,13 @@ namespace SimpleAPI.Test
         }
 
         [Fact]
+        public void GetWeatherForcast()
+        {
+            var returnValue = controller.GetWeather();
+            Assert.Equal("Today is a sunny day!!!", returnValue.ToString());
+        }
+
+        [Fact]
         public void Test1()
         {
 

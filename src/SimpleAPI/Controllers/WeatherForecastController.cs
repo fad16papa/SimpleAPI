@@ -28,5 +28,11 @@ namespace SimpleAPI.Controllers
         {
             return "Mugsy Biscuit Forever";
         }
+
+        [HttpGet, Route("/GetWeather")]
+        public string GetWeather()
+        {
+            return "Today is a sunny day!!!";
+        }
     }
 }
