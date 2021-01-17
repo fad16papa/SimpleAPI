@@ -26,7 +26,7 @@ namespace SimpleAPI.Controllers
         [HttpGet]
         public string Get()
         {
-            return "I'm fad the great!";
+            return "I'm fad the great!!!";
         }
     }
 }
