@@ -23,6 +23,13 @@ namespace SimpleAPI.Test
         }
 
         [Fact]
+        public void Getfad()
+        {
+            var returnValue = controller.Getfad();
+            Assert.Equal("I'm fad the great!", returnValue.ToString());
+        }
+
+        [Fact]
         public void Test1()
         {
 

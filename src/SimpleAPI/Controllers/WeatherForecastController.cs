@@ -34,5 +34,11 @@ namespace SimpleAPI.Controllers
         {
             return "Today is a sunny day!!!";
         }
+
+        [HttpGet, Route("/Getfad")]
+        public string Getfad()
+        {
+            return "I'm fad the great!";
+        }
     }
 }
